@@ -19,4 +19,36 @@ div {
   background-color: blue; 
   text-align: right; 
   } 
-
+  table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 15px 20px;
+    text-align: left;
+  }
+  
+  thead th {
+    background: linear-gradient(90deg, #0055a5, #0077cc);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  tbody tr:hover {
+    background-color: #eef7ff;
+    cursor: pointer;
+  }
